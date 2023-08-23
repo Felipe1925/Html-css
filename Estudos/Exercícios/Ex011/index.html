@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <H1>imagem dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" >
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áuidios em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Carried - Lauren Duski.mp3" type="audio/mpeg">
+        <source src="midia/Carried - Lauren Duski.ogg" type="audio/ogg">
+        <source src="midia/Carried - Lauren Duski.wav" type="audio/wav">
+    </audio>
+    <audio preload="metadata" controls>
+        <source src="midia/Golly Gee - Kevin MacLeod.mp3" type="audio/mpeg">
+    </audio>
+    <p>Se não for possível escutar o audio, <a href="midia/Carried - Lauren Duski.mp3" download>CLIQUE AQUI PARA BAIXAR</a>. Se quiser a musica 2, é <a href="midia/Golly Gee - Kevin MacLeod.mp3" download>AQUI</a></p>
+</body>
+</html>
