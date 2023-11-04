@@ -3,6 +3,8 @@
 /*
 cor1: #fa5c5c
 cor2: #ffc183
+cor3: #614142
+cor4: #DFE6F0
 */
 
 * {
@@ -15,7 +17,7 @@ cor2: #ffc183
 body, html {
     height: 100vh;
     width: 100vw;
-    background-color: #fa5c5c;
+    background-color: #733250;
 }
 
 main {
@@ -36,14 +38,15 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
     overflow: hidden;
+
 }
 
 section#login > div#imagem {
     display: block;
-    background-color: #ff7d7d;
-    background: url(../imagem/predio.jpg) no-repeat;
+    background-color: #733250;
+    background: url(../imagem/pexels-misael-garcia-1707823.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     height: 230px;
     
 }
